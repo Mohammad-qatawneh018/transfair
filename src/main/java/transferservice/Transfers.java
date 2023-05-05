@@ -1,6 +1,6 @@
-package transfairService;
+package transferservice;
 
-public class Transfairs {
+public class Transfers {
 
 	private int id;
 	private int fromAccountId;

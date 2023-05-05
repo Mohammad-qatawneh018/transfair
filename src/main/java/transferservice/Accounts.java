@@ -1,11 +1,13 @@
-package transfairService;
+package transferservice;
 
 public class Accounts {
+
 	private int id;
-	private int AccountNumber;
-	private String AccountName;
+	private int accountNumber;
+	private String accountName;
 	private int balance;
-		public int getId() {
+
+	public int getId() {
 		return id;
 	}
 
@@ -14,19 +16,19 @@ public class Accounts {
 	}
 
 	public int getAccountNumber() {
-		return AccountNumber;
+		return accountNumber;
 	}
 
 	public void setAccountNumber(int accountNumber) {
-		this.AccountNumber = accountNumber;
+		this.accountNumber = accountNumber;
 	}
 
 	public String getAccountName() {
-		return AccountName;
+		return accountName;
 	}
 
 	public void setAccountName(String accountName) {
-		this.AccountName = accountName;
+		this.accountName = accountName;
 	}
 
 	public int getBalance() {
